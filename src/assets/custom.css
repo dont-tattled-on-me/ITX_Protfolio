@@ -1,0 +1,57 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+nav{
+    background: #6666;
+}
+.menubar{
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 0 2em;
+}
+ul li a{
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 45px;
+}
+header{
+    border: solid 1px red;
+    max-height: 500px;
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    max-width: 75%;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #540032;
+  }
+.t1 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
